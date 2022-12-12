@@ -1,0 +1,81 @@
+
+
+.parallax {
+  /* The image used */
+ background-image: url("ava copy.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: chartreuse;
+}
+.menu {
+  float:left;
+  width:25%;
+}
+.menu a {
+  float:left;
+  width:25%;
+  text-align:center;
+  background-color:#F80106;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.bio{
+  float:right;
+  width:20%;
+  text-align:right;
+  background-color:transparent;
+  padding:7px;
+  margin-top:7px;
+  display:block;
+  width:70%;
+  color:white;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+
+.music {
+	position:absolute;
+	width:50%;
+	
+}
+/* This gets Google to fall into place */
+.icon-bar {
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+position: relative;
+top:400px;
+right:-70px;
+
+}
+ 
+/* Adjust the widths individually if you like */
+.icon-bar .facebook {
+	width: 75px;
+}
+.icon-bar .instagram {
+	width: 75px;
+}
+.icon-bar .twitter {
+	width: 75px;
+}
+.icon-bar .spotify {
+	width: 75px;
+}
+.icon-bar .soundcloud {
+	width: 75px;
+}
+
